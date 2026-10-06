@@ -11,7 +11,13 @@ def main():
     print(my_classes)
     my_classes[1] += " comp sci"
     print(my_classes)
-
+    print(my_classes.index("math"))
+    print("math" in my_classes)
+    my_classes.append("journalism")
+    my_classes.insert(2, "biology")
+    print(my_classes.pop())
+    print(my_classes.sort())
+    print(my_classes)
 
 if __name__ == "__main__":
     main()
